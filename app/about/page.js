@@ -1,5 +1,12 @@
+import Navigation from "../components/Navigation";
+
+
 export default function Page(){
     return (
-        <h1>About page</h1>
+        <div>
+            <Navigation/>
+            <h1>About page</h1>
+
+        </div>
     )
 }
